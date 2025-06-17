@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    
+}
+.container{
+     width: 1440px;
+     text-align: center;
+     background-color: hsl(218, 28%, 13%);
+     
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-content: baseline;
+    margin-top: 10px;
+    padding-top: 40px;
+}
+ul{
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+    
+}
+li{
+    list-style: none;
+}
+li a{
+    color: rgb(178, 178, 178);
+}
+li a:hover{
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.section-1 h1{
+    font-size: xx-large;
+}
+.section-1 button{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: hsl(198, 60%, 50%);
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    transition: 01s ease-in;
+}
+.section-1 button:hover{
+    background-color: hsl(176, 68%, 64%);
+    font-weight: bold;
+}
+.section-2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    justify-content: baseline;
+}
+.section-2 h4{
+    font-size: large;
+}
+
+.section-3{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+
+}
+.stay-para{
+    text-align: left;
+    margin-top: 10%;
+    
+}
+.stay-para h1{
+    font-size: xx-large;
+}
+.fylo{
+    display: flex;
+    gap: 5px;
+}
+.fylo a ins{
+    color: aqua;
+}
+.fylo a ins:hover{
+    color: white;
+}
+.stay-img{
+    margin-left: 170px;
+}
+.section-4{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    
+    
+    
+}
+.patel{
+    text-align: left;
+    width: 380px;
+    background-color: hsl(219, 30%, 18%);
+}
+.bruce{
+    text-align: left;
+    width: 380px;
+    background-color: hsl(219, 30%, 18%);
+}
+.iva{
+    text-align: left;
+    width: 380px;
+    background-color: hsl(219, 30%, 18%);
+}
+.last-section{
+    display: flex;
+    flex-direction: column;
+    
+}
+.box{
+    background-color: hsl(217, 28%, 15%);
+    width: 800px;
+    height: 160px;
+    margin: 0px 20%;
+    background-position: bottom;
+    
+
+}
+.header h1{
+    font-size: large;
+}
+.details-img{
+    display: flex;
+    text-align: left;
+    justify-content: baseline;
+    justify-content: left;
+    gap: 5px;
+}
+.details-img img{
+    border-radius: 50%;
+    width: 40px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+input{
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    height: 30px;
+    width: 350px;
+    color: black;
+}
+.btn button{
+    background-color: hsl(198, 60%, 50%);
+    width: 180px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 05s ease-in;
+}
+.btn button:hover{
+    
+     background-color: hsl(176, 68%, 64%);
+     font-weight: bold;
+}
+.nav{
+    background-color: hsl(216, 53%, 9%);
+}
+.bottom-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.bottom-nav img{
+    width: 10px;
+}
+.bottom-nav a:hover{
+    font-weight: bold;
+}
+.logo2{
+    text-align: left;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+}
+.img{
+    display: flex;
+    flex-direction: column;  
+}
+.lorem{
+    display: flex;
+}
+.lorem img{
+    width: 20px;
+    height: 20px;
+}
+.social img{
+    width: 15px;
+}
+@media only screen and(max-width:850px){
+   .container{
+        text-align: center;
+   }
+   nav{
+    display: flex;
+    flex-direction: column;
+   }
+}
